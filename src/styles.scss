@@ -1,0 +1,28 @@
+body {
+    background: #333;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline !important;
+}
+
+.popup {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 500px;
+    background-color: #4158d0;
+    background-image: linear-gradient( 43deg, #4158d0 0%, #c850c0 46%, #ffcc70 100%);
+    padding: 40px 30px;
+    border-radius: 20px;
+}
+
+.popup label {
+    color: #fff;
+}
+
+.popup h1 {
+    color: #fff;
+}
